@@ -304,14 +304,14 @@
     - Выбрать друга-соперника из списка "Choose opponent"
     - Нажать на кнопку "Create invite"
     - Автоматический переход на страницу https://codebattle.hexlet.io/#lobby
-    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение: "You invite никнейм Игрока 1 to battle. Wait for his reply"
+    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение:"You invite никнейм Игрока 1 to battle. Wait for his reply"
     - Навести курсор на иконку "Кинжалов"- отображается уведомление, что вы пригласили друга в игру "you invited и ник приглашенного друга"
     - Ожидаем ответ от друга
     - Перейти на страницу https://codebattle.hexlet.io/#lobby приглашенного 2 игрока(вкладка 2 Firefox)
-    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение: "You have (1) invites to battle. Check"
+    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение:"You have (1) invites to battle. Check"
     - Так же отображается уведомление на иконке "Кинжалов", нажать на него
   expected-result: |
-    У приглашенного 2 игрока отображается запрос на игру и сообщение: "никнейм пригласившего(1 игрок) invaited you" и выбор кнопок Accept или Descline
+    У приглашенного 2 игрока отображается запрос на игру и сообщение:"никнейм пригласившего(1 игрок) invaited you" и выбор кнопок Accept или Descline
     
 - summary: |
     Проверка отмены приглашения друга в игру
@@ -357,7 +357,7 @@
     - Навести курсор на иконку "Кинжалов"- отображается уведомление, что вы пригласили друга в игру "you invited и ник приглашенного друга"
     - Ожидаем ответ от друга
     - Перейти на страницу https://codebattle.hexlet.io/#lobby приглашенного 2 игрока(вкладка 2 Firefox)
-    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение: "You have (1) invites to battle. Check"
+    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение:"You have (1) invites to battle. Check"
     - Так же отображается уведомление на иконке "Кинжалов", нажать на него
     - Отображается запрос на игру и сообщение:"никнейм пригласившего(1 игрок) invaited you" и выбор кнопок Accept или Descline
     - Нажать на кнопку "Accept"(принять запрос)
@@ -382,13 +382,13 @@
     - Выбрать друга-соперника из списка "Choose opponent"
     - Нажать на кнопку "Create invite"
     - Автоматический переход на страницу https://codebattle.hexlet.io/#lobby
-    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение "You invite никнейм Игрока 1 to battle. Wait for his reply"
+    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение:"You invite никнейм Игрока 1 to battle. Wait for his reply"
     - Навести курсор на иконку "Кинжалов"- отображается уведомление, что вы пригласили друга в игру "you invited и ник приглашенного друга"
     - Ожидаем ответ от друга
     - Перейти на страницу https://codebattle.hexlet.io/#lobby приглашенного 2 игрока(вкладка 2 Firefox)
-    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение: "You have (1) invites to battle. Check" 
+    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение:"You have (1) invites to battle. Check" 
     - Так же отображается уведомление на иконке "Кинжалов", нажать на него
-    - Отображается запрос на игру и сообщение: "никнейм пригласившего(1 игрок) invaited you" и выбор кнопок Accept или Descline
+    - Отображается запрос на игру и сообщение:"никнейм пригласившего(1 игрок) invaited you" и выбор кнопок Accept или Descline
     - Нажать на кнопку "Descline"(отклонить запрос)
   expected-result: |
    На странице игрока 2,внизу,в лобби чата "Joined channel:Lobby",отображается сообщение:"You decline battle invite[Opponent никнейм 1 игрока]".На странице игрока 1,внизу,в лобби чата "Joined channel:Lobby",отображается сообщение:"Invite has been canceled(Opponent никнейм 2 игрока)"
@@ -572,7 +572,7 @@
   steps:
     - Оба игрока пишут код
     - Оба игрока одновременно закончили писать код, но код одного из игроков оказался не верным
-    - На экране проигравшего игрока выводится сообщение с картинкой Gif и сообщение:"If you read this you've lost the game"
+    - На экране проигравшего игрока выводится сообщение с картинкой Gif "If you read this you've lost the game"
     - Нажать на кнопку "I'll be back"
   expected-result: |
     Игра завершена. В правой части страницы в розовом окне у проигравшего игрока выводится сообщение:"Your opponent has won the game"
