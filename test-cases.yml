@@ -353,7 +353,7 @@
     - Выбрать друга-соперника из списка "Choose opponent"
     - Нажать на кнопку "Create invite"
     - Автоматический переход на страницу https://codebattle.hexlet.io/#lobby
-    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение: "You invite никнейм Игрока 1 to battle. Wait for his reply"
+    - Внизу, в лобби чата "Joined channel:Lobby", отображается сообщение:"You invite никнейм Игрока 1 to battle. Wait for his reply"
     - Навести курсор на иконку "Кинжалов"- отображается уведомление, что вы пригласили друга в игру "you invited и ник приглашенного друга"
     - Ожидаем ответ от друга
     - Перейти на страницу https://codebattle.hexlet.io/#lobby приглашенного 2 игрока(вкладка 2 Firefox)
